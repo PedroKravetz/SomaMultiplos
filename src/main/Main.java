@@ -14,6 +14,7 @@ public class Main {
         limite = input.nextInt();
         System.out.println(somaInterativa(numero, limite));
         System.out.println(somaRecursiva(numero, numero, limite));
+        input.close();
     }
 
     /**
